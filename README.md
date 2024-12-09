@@ -49,3 +49,10 @@ Na Fargo, reconhecemos a importância crucial dos dados para impulsionar as oper
 3. **Seleção de Recursos:** Identificar os recursos mais relevantes e significativos para a previsão de vendas, utilizando técnicas de seleção de recursos e análise exploratória de dados.
 
 4. **Desenvolvimento de Modelos:** Implementar modelos de dados para atender as áreas estratégicas de nossos clientes que os ajudem na elaboração de estratégias de crescimento e competitividade.
+
+**Governança de Dados:**
+1. **Segurança e Privacidade:** Garantir a conformidade com regulamentações de proteção de dados, como a LGPD no Brasil, GDPR na Europa, e outras regulamentações relevantes, implementando medidas de segurança rigorosas para proteger a privacidade e a integridade dos dados do cliente. 
+
+2. **Ética e Transparência:** Adotar práticas éticas de coleta e uso de dados, garantindo transparência no processo de modelagem e comunicação clara sobre como os dados são usados e interpretados.
+
+3. **Qualidade e Integridade dos Dados:** Estabelecer padrões de qualidade de dados e processos de monitoramento contínuo para garantir a integridade e a confiabilidade dos dados ao longo do tempo.
