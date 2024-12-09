@@ -7,7 +7,7 @@
 ---
 
 ### Desafio do Projeto
-O projeto proposto pelos professores do curso de MBA em Engenharia de Dados da Universidade Mackenzie consiste em criar um processo completo de ingestão, transformação e análise de dados de vendas, resultando na criação de um modelo de previsão de vendas e um dashboard interativo.
+O projeto proposto pelos professores do curso de MBA em Engenharia de Dados da Universidade Mackenzie consiste em criar um processo completo de ingestão, transformação e análise de dados de vendas, resultando na criação de um modelo de analises de dados de vendas e um dashboard interativo.
 
 ### Integrantes
 | Nome                    | Função                                               |
