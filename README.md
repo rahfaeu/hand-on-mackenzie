@@ -21,7 +21,7 @@ O projeto proposto pelos professores do curso de MBA em Engenharia de Dados da U
 
 # Empresa
 
-![Fargo Data](./images/catapimbas_logo.png)
+![Fargo Data](./images/fargo-logo.png)
 
 Dados sem limites!
 
