@@ -27,7 +27,7 @@ Dados sem limites!
 
 Somos uma empresa que te ajuda a encontrar valor nos seus dados e te surpreende com resultados.
 
-**Estratégia de Dados da Catapimbas Data para Previsão de Vendas**
+**Estratégia de Dados da Fargo para analise de dados de vendas**
 
 **Visão Geral:**
 Na Fargo, reconhecemos a importância crucial dos dados para impulsionar as operações e as decisões de negócios no setor de vendas. Nossa missão é fornecer soluções completas e de ponta que capacitem nossos clientes a analisar suas vendas, otimizar inventários e aumentar a eficiência operacional.
