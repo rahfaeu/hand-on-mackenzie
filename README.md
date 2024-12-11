@@ -57,7 +57,7 @@ Na Fargo, reconhecemos a importância crucial dos dados para impulsionar as oper
 
 3. **Qualidade e Integridade dos Dados:** Estabelecer padrões de qualidade de dados e processos de monitoramento contínuo para garantir a integridade e a confiabilidade dos dados ao longo do tempo.
 
-4. **Implementação e Suporte:**
+**Implementação e Suporte:**
 1. **Integração com Sistemas Existentes:** Trabalhar em estreita colaboração com os clientes para integrar nossos modelos de previsão de vendas em seus sistemas de gestão de estoque e vendas existentes, garantindo uma transição suave e uma adoção eficaz.
 
 2. **Treinamento e Capacitação:** Oferecer treinamento e suporte especializado para os usuários finais, capacitando-os a interpretar e utilizar efetivamente os insights gerados pelos modelos de machine learning.
