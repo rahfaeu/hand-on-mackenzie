@@ -1,0 +1,42 @@
+version: 2
+
+models:
+  - name: stg_vendedores
+    description: '{{ doc("tbl_vendedores_description") }}'
+    config:
+      meta:
+        contains_pii: true
+      group: sales
+      contract:
+        enforced: true
+    columns:
+      - name: vendedor_id
+        description: '{{ doc("vendedor_id") }}'
+        data_type: int
+        tests:
+          - unique
+          - not_null
+
+      - name: vendedor_nome
+        data_type: string
+        description: '{{ doc("vendedor_nome") }}'
+        tests:
+          - not_null
+
+      - name: concessionaria_id
+        data_type: int
+        description: '{{ doc("concessionaria_id") }}'
+        tests:
+          - not_null
+
+      - name: data_inclusao
+        description: '{{ doc("data_inclusao") }}'
+        data_type: timestamp
+        tests:
+          - not_null
+
+      - name: data_atualizacao
+        description: '{{ doc("data_atualizacao") }}'
+        data_type: timestamp
+        tests:
+          - not_null

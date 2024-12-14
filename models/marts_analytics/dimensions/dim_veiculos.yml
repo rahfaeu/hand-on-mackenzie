@@ -1,0 +1,46 @@
+version: 2
+
+models:
+  - name: dim_veiculos
+    description: '{{ doc("tbl_veiculos_description") }}'
+    config:
+      group: sales
+      contract:
+        enforced: true
+    columns:
+      - name: veiculo_id
+        description: '{{ doc("veiculo_id") }}'
+        data_type: int64
+        tests:
+          - unique
+          - not_null
+
+      - name: veiculo_nome
+        data_type: string
+        description: '{{ doc("veiculo_nome") }}'
+        tests:
+          - not_null
+
+      - name: tipo
+        data_type: string
+        description: '{{ doc("veiculo_tipo") }}'
+        tests:
+          - not_null
+
+      - name: valor_sugerido
+        data_type: float
+        description: '{{ doc("veiculo_valor") }}'
+        tests:
+          - not_null
+
+      - name: data_inclusao
+        description: '{{ doc("data_inclusao") }}'
+        data_type: timestamp
+        tests:
+          - not_null
+
+      - name: data_atualizacao
+        description: '{{ doc("data_atualizacao") }}'
+        data_type: timestamp
+        tests:
+          - not_null
