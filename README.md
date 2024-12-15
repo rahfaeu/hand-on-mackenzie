@@ -7,7 +7,7 @@
 ---
 
 ### Desafio do Projeto
-O projeto proposto pelos professores do curso de MBA em Engenharia de Dados da Universidade Mackenzie consiste em criar um processo completo de ingestão, transformação e análise de dados de vendas, resultando na criação de um modelo de analises de dados de vendas e um dashboard interativo.
+O projeto proposto pelos professor do curso de MBA em Engenharia de Dados da Universidade Mackenzie consiste em criar um processo completo de ingestão, transformação e análise de dados de vendas, resultando na criação de uma camada de analise de dados e um dashboard interativo.
 
 ### Integrantes
 | Nome                    | Função                                               |
@@ -33,22 +33,21 @@ Somos uma empresa que te ajuda a encontrar valor nos seus dados e te surpreende 
 Na Fargo, reconhecemos a importância crucial dos dados para impulsionar as operações e as decisões de negócios no setor de vendas. Nossa missão é fornecer soluções completas e de ponta que capacitem nossos clientes a analisar suas vendas, otimizar inventários e aumentar a eficiência operacional.
 
 **Objetivos Estratégicos:**
-1. **Direcionado a dados:** Desenvolver modelos de dados precisos para ter domínio das vendas com base em dados.
+1. **Direcionado a dados:** Desenvolver produtos de dados eficientes para ter domínio das vendas com base em dados.
    
 2. **Otimização de Inventário:** Utilizar análises preditivas para determinar os níveis ideais de estoque, minimizando assim os custos associados ao excesso ou à escassez de produtos.
 
 3. **Personalização do Atendimento ao Cliente:** Utilizar dados para entender melhor o comportamento do cliente e oferecer recomendações personalizadas, impulsionando a fidelidade e as vendas repetidas.
 
-4. **Agilidade e Escalabilidade:** Desenvolver uma infraestrutura de dados ágil e escalável que suporte a rápida análise e processamento de grandes volumes de dados, garantindo que nossos modelos sejam adaptáveis ​​e eficazes em ambientes em constante mudança.
+4. **Agilidade e Escalabilidade:** Desenvolver uma infraestrutura de dados ágil e escalável que suporte a rápida análise e processamento de grandes volumes de dados, garantindo que nossos produtos sejam precisos e eficientes.
 
 **Abordagem Técnica:**
 1. **Coleta de Dados Abrangente:** Implementar processos para coletar dados de vendas, estoques, comportamento do cliente e variáveis ​​externas relevantes, como clima, feriados e eventos sazonais.
 
 2. **Limpeza e Preparação de Dados:** Realizar uma limpeza rigorosa dos dados, identificando e corrigindo inconsistências, outliers e lacunas, além de transformar os dados em formatos adequados para análise.
 
-3. **Seleção de Recursos:** Identificar os recursos mais relevantes e significativos para a previsão de vendas, utilizando técnicas de seleção de recursos e análise exploratória de dados.
+3. **Modelagem dos Dados:** Implementar a modelagem dimensional nos dados para atender as áreas estratégicas de nossos clientes que os ajudem na elaboração de estratégias de crescimento e competitividade.
 
-4. **Desenvolvimento de Modelos:** Implementar modelos de dados para atender as áreas estratégicas de nossos clientes que os ajudem na elaboração de estratégias de crescimento e competitividade.
 
 **Governança de Dados:**
 1. **Segurança e Privacidade:** Garantir a conformidade com regulamentações de proteção de dados, como a LGPD no Brasil, GDPR na Europa, e outras regulamentações relevantes, implementando medidas de segurança rigorosas para proteger a privacidade e a integridade dos dados do cliente. 
@@ -76,7 +75,7 @@ Na Fargo, estamos comprometidos em fornecer soluções de dados de classe mundia
 1. **Ingestão de Dados**: Desenvolver um pipeline para coletar e armazenar dados de vendas de diversas fontes.
 2. **Transformação de Dados**: Aplicar transformações necessárias para limpar e preparar os dados para análise.
 3. **Data Governance**: Aplicar conceitos e diretrizes de governança de dados.
-4. **Modelo de Previsão de Vendas**: Criar e treinar um modelo preditivo para estimar futuras vendas.
+4. **Modelagem dimensional**: Criar um modelo star schema para suportar as áreas de negócio.
 5. **Dashboard**: Construir um dashboard para visualizar as tendências de vendas e previsões.
 
 ## Escopo do Projeto
@@ -99,9 +98,7 @@ Na Fargo, estamos comprometidos em fornecer soluções de dados de classe mundia
 
     - **[Elementary](https://www.elementary-data.com/)**: Solução nativa de observabilidade de dados para engenheiros de dados e analytics.
 
-    - **[Slack](https://api.slack.com/docs)**: A plataforma Slack oferece muitas ferramentas para ajudar a aprimorar seus workspaces. Em um nível mais alto, elas podem ser vistas através da lente das automações de fluxo de trabalho e dos aplicativos Slack que não são de fluxo de trabalho.
-
-- **Período de Execução**: 2 meses.
+- **Período de Execução**: 3 semanas.
 
 ## Arquitetura de Dados
 
@@ -109,7 +106,6 @@ Na Fargo, estamos comprometidos em fornecer soluções de dados de classe mundia
 
 - **Ingestão**: Utilização do Cloud Data Flow para orquestrar a coleta de dados de várias fontes e armazenamento em um data lake.
 - **Transformação**: DBT para aplicar transformações e criar modelos de dados limpos e preparados.
-- **Modelo de Previsão**: Uso de Streamlit para a criação rápida de aplicativos web para visualização de dados, prototipagem e implementação de modelos de machine learning.
 - **Visualização**: Tableau para criar dashboards interativos.
 
 ## Processo de Ingestão de Dados
@@ -122,17 +118,12 @@ Na Fargo, estamos comprometidos em fornecer soluções de dados de classe mundia
 2. **Enriquecimento**: Combinação de dados de diferentes fontes para adicionar valor aos dados de vendas.
 3. **Modelagem**: Criação de tabelas dimensionais e fato para análise eficiente (star schema).
 
-## Modelo de Previsão de Vendas
-1. **Preparação dos Dados**: Separação dos dados em conjuntos de treino e teste.
-2. **Treinamento do Modelo**: Uso de algoritmos de machine learning para treinar o modelo preditivo.
-3. **Validação**: Avaliação do modelo utilizando métricas de performance e ajuste fino.
-
 ## Dashboard
 1. **Visualização de Tendências**: Gráficos e tabelas mostrando as tendências históricas de vendas.
 2. **Previsões**: Gráficos de previsão mostrando estimativas de vendas futuras.
 3. **Interatividade**: Filtros e opções de drill-down para explorar os dados em detalhes.
 
 ## Conclusão
-Este projeto integra várias etapas de engenharia de dados, desde a coleta e transformação de dados até a criação de modelos preditivos e visualizações. O objetivo é fornecer uma solução completa e eficiente para análise e previsão de vendas, utilizando ferramentas modernas e práticas recomendadas na indústria.
+Este projeto integra várias etapas de engenharia de dados, desde a coleta e transformação de dados até a criação visualizações. O objetivo é fornecer uma solução completa e eficiente para análise de vendas, utilizando ferramentas modernas e práticas recomendadas na indústria.
 
 ---
