@@ -1,0 +1,5 @@
+project:
+  name: fargo-l4b
+  tz: Africa/Abidjan
+  adrFolder: ./docs/adr
+  packages: []
