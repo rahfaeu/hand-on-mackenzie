@@ -66,11 +66,6 @@ Na Fargo, reconhecemos a importância crucial dos dados para impulsionar as oper
 **Conclusão:**
 Na Fargo, estamos comprometidos em fornecer soluções de dados de classe mundial que capacitam nossos clientes a tomar decisões informadas e impulsionar o sucesso no competitivo mercado de vendas. Com uma abordagem centrada em dados, expertise técnica e um compromisso com a excelência, estamos prontos para enfrentar os desafios mais exigentes e ajudar nossos clientes a alcançarem novos patamares de sucesso.
 
-## Repositórios:
--xxxxxxxxxxxx
-
--xxxxxxxxxxxx
-
 ## Objetivos
 1. **Ingestão de Dados**: Desenvolver um pipeline para coletar e armazenar dados de vendas de diversas fontes.
 2. **Transformação de Dados**: Aplicar transformações necessárias para limpar e preparar os dados para análise.
