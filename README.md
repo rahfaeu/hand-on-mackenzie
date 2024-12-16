@@ -10,12 +10,12 @@
 O projeto proposto pelos professor do curso de MBA em Engenharia de Dados da Universidade Mackenzie consiste em criar um processo completo de ingestão, transformação e análise de dados de vendas, resultando na criação de uma camada de analise de dados e um dashboard interativo.
 
 ### Integrantes
-| Nome                    | Função                                               |
-|-------------------------|------------------------------------------------------|
-| Gustavo Bido            | Data Governance                                      |
-| Neoaquison Medeiros     | Data Engineer e Devops                               |
-| Rafael dos Santos       | Product Manager, Data Engineer e Analytics Engineer  |
-| Samuel Perumalswamy     | Data Engineer                                        |
+| Nome                    | Função                                               | Matrícula |
+|-------------------------|------------------------------------------------------|-----------|
+| Gustavo Bido            | Data Governance                                      | 10444746  |
+| Neoaquison Medeiros     | Data Engineer e Devops                               | 10444895  |
+| Rafael dos Santos       | Product Manager, Data Engineer e Analytics Engineer  | 10444896  |
+| Samuel Perumalswamy     | Data Engineer                                        | 10444049  |
 
 ---
 
