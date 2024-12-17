@@ -120,6 +120,16 @@ Na Fargo, estamos comprometidos em fornecer soluções de dados de classe mundia
    
 ![image](./images/dashboard.png)
 
+## Estimativa de custos para implementação
+
+**BigQuery**
+![bigquery](https://github.com/user-attachments/assets/c96621d8-957f-4c58-831b-265588c18b22)
+
+**DBT**
+
+![dbt](https://github.com/user-attachments/assets/9e66d925-59cc-4a04-b639-525e45ca46ba)
+
+
 ## Conclusão
 Este projeto integra várias etapas de engenharia de dados, desde a coleta e transformação de dados até a criação visualizações. O objetivo é fornecer uma solução completa e eficiente para análise de vendas, utilizando ferramentas modernas e práticas recomendadas na indústria.
 
