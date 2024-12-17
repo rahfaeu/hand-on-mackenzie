@@ -117,7 +117,7 @@ Na Fargo, estamos comprometidos em fornecer soluções de dados de classe mundia
 1. **Visualização de Tendências**: Gráficos e tabelas mostrando as tendências históricas de vendas.
 2. **Previsões**: Gráficos de previsão mostrando estimativas de vendas futuras.
 3. **Interatividade**: Filtros e opções de drill-down para explorar os dados em detalhes.
-4. 
+   
 ![image](./images/dashboard.png)
 
 ## Conclusão
