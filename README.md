@@ -10,12 +10,12 @@
 O projeto proposto pelos professor do curso de MBA em Engenharia de Dados da Universidade Mackenzie consiste em criar um processo completo de ingestão, transformação e análise de dados de vendas, resultando na criação de uma camada de analise de dados e um dashboard interativo.
 
 ### Integrantes
-| Nome                    | Função                                               | Matrícula |
-|-------------------------|------------------------------------------------------|-----------|
-| Gustavo Bido            | Data Governance                                      | 10444746  |
-| Neoaquison Medeiros     | Data Engineer e Devops                               | 10444895  |
-| Rafael dos Santos       | Product Manager, Data Engineer e Analytics Engineer  | 10444896  |
-| Samuel Perumalswamy     | Data Engineer                                        | 10444049  |
+| Matrícula               | Nome                    | Função                                               |
+|-------------------------|-------------------------|------------------------------------------------------|
+| 10444746                | Gustavo Bido            | Data Governance                                      |
+| 10444895                | Neoaquison Medeiros     | Data Engineer e Devops                               |
+| 10444896                | Rafael dos Santos       | Product Manager, Data Engineer e Analytics Engineer  |
+| 10444049                | Samuel Perumalswamy     | Data Engineer                                        |
 
 ---
 
@@ -97,7 +97,7 @@ Na Fargo, estamos comprometidos em fornecer soluções de dados de classe mundia
 
 ## Arquitetura de Dados
 
-![alt text](./images/Arquitetura.png)
+![architecture](./images/updated_architecture.png)
 
 - **Ingestão**: Utilização do Cloud Data Flow para orquestrar a coleta de dados de várias fontes e armazenamento em um data lake.
 - **Transformação**: DBT para aplicar transformações e criar modelos de dados limpos e preparados.
@@ -118,7 +118,7 @@ Na Fargo, estamos comprometidos em fornecer soluções de dados de classe mundia
 2. **Previsões**: Gráficos de previsão mostrando estimativas de vendas futuras.
 3. **Interatividade**: Filtros e opções de drill-down para explorar os dados em detalhes.
    
-![image](./images/dashboard.png)
+![dashboard_tableau](./images/dashboard.png)
 
 ## Estimativa de custos para implementação
 
