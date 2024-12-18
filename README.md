@@ -7,7 +7,7 @@
 ---
 
 ### Desafio do Projeto
-O projeto proposto pelos professor do curso de MBA em Engenharia de Dados da Universidade Mackenzie consiste em criar um processo completo de ingestão, transformação e análise de dados de vendas, resultando na criação de uma camada de analise de dados e um dashboard interativo.
+O projeto proposto pelo professor do curso de MBA em Engenharia de Dados da Universidade Mackenzie consiste em criar um projeto utilizando a Arquitetura Lambda com processos completos de ingestão, transformação e análise de dados de vendas, resultando na criação de uma camada de análise de dados.
 
 ### Integrantes
 | Matrícula               | Nome                    | Função                                               |
