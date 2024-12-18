@@ -97,7 +97,7 @@ Na Fargo, estamos comprometidos em fornecer soluções de dados de classe mundia
 
 ## Arquitetura de Dados
 
-![architecture](./images/updated_architecture.png)
+![architecture](./images/updated_arch.png)
 
 - **Ingestão**: Utilização do Cloud Data Flow para orquestrar a coleta de dados de várias fontes e armazenamento em um data lake.
 - **Transformação**: DBT para aplicar transformações e criar modelos de dados limpos e preparados.
