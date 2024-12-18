@@ -123,7 +123,7 @@ Na Fargo, estamos comprometidos em fornecer soluções de dados de classe mundia
 ## Estimativa de custos para implementação
 
 **BigQuery**
-![bigquery](https://github.com/user-attachments/assets/c96621d8-957f-4c58-831b-265588c18b22)
+![bigquery](./images/bq_cost.png)
 
 **DBT**
 
